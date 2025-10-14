@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080'
+const baseURL = import.meta.env.VITE_API_BASE_URL || 'https://expense-tracker-backend-49cq.onrender.com'
 
 const instance = axios.create({
   baseURL,
