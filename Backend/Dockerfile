@@ -1,4 +1,4 @@
-FROM maven:3.8.6-openjdk-8 AS build
+FROM eclipse-temurin:8-jre
 WORKDIR /app
 COPY pom.xml .
 RUN mvn dependency:go-offline -B
